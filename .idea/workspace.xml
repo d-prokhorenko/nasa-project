@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7b26ae6a-36ac-41bb-b9b8-338266bd78aa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.github/workflows/node.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/node.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.start.executor": "Run",
+    "npm.test.executor": "Run",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "D:\\Programms\\WebStorm 2024.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external"
   }
@@ -69,7 +71,7 @@
       <recent name="D:\Study\Fullstask\Nodejs\NASA-project\server\routes" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="npm.test">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/NASA-project/client/build/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -83,8 +85,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/server/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="npm.start" />
       </list>
